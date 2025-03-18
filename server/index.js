@@ -19,7 +19,7 @@ console.log('Adzuna API Key:', ADZUNA_API_KEY);
 // Enable CORS for all incoming requests (or specify origin as needed)
 app.use(cors({
   //origin: 'https://your-frontend.onrender.com', 
-  origin: 'http://localhost:3000', // Allow requests from local frontend
+  origin: 'https://onomesjobboard.netlify.app', // Allow requests from local frontend
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type']
 }));
